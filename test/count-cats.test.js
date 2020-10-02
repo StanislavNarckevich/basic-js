@@ -3,7 +3,7 @@ const { expect, assert } = chai;
 it.optional = require('../extensions/it-optional');
 
 Object.freeze(assert);
-
+ 
 const countCats = require('../src/count-cats.js');
 
 const fakeRandom = ({ rows, cols, stringSet }) => {
